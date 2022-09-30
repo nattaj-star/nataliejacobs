@@ -94,11 +94,51 @@
     </div>
 </div>
 
-<div id="resumeTab">
-    <div id="resumeContent">
+<div id="cvTab">
+    <div id="cvContent">
         <div class="grid-container">
-           
-          </div>
+            <div class="grid-item">EDUCATION</div>
+            <div class="grid-item">2021</div>
+          <div class="grid-item">Skidmore College, Cum Laude, Saratoga Springs, NY</div>
+          <div class="grid-item"></div>
+          <div class="grid-item">2019</div>
+          <div class="grid-item">Studio Arts College International, Florence, Italy</div>
+          <div class="grid-item"></div>
+          <div class="grid-item">2016</div>
+          <div class="grid-item">Maine College of Art, Portland, ME</div>
+          <div class="grid-item">SELECTED GROUP EXHIBITIONS</div>
+          <div class="grid-item">2022</div>
+          <div class="grid-item">The Other Art Fair, Agger Fish Building, Brooklyn, NY [forthcoming]</div>
+          <div class="grid-item"></div>
+          <div class="grid-item"></div>
+          <div class="grid-item">Hot Box, SVA Flatiron Gallery, New York, NY</div>
+          <div class="grid-item"></div>
+          <div class="grid-item"></div>
+          <div class="grid-item">Open Studios, SVA Flatiron, New York, NY</div>
+          <div class="grid-item"></div>
+          <div class="grid-item"></div>
+          <div class="grid-item">The House Down, Rogue Space, New York, NY</div>
+          <div class="grid-item"></div>
+          <div class="grid-item">2021</div>
+           <div class="grid-item">Thesis, Tang Teaching Museum, Saratoga Springs, NY</div>
+          <div class="grid-item"></div>
+           <div class="grid-item"></div>
+          <div class="grid-item">Juried, The Schick, Saratoga Springs, NY</div>
+           <div class="grid-item"></div>
+          <div class="grid-item">2019</div>
+           <div class="grid-item">Spettacolo Finale, SACI Maedoff, Florence, Italy</div>
+          <div class="grid-item">RESIDENCIES</div>
+          <div class="grid-item">2022</div>
+          <div class="grid-item">Studio Residency in Painting, School of Visual Arts, NY, NY</div>
+          <div class="grid-item">HONORS</div>
+          <div class="grid-item">2021</div>
+          <div class="grid-item">Honors, Tang Teaching Museum</div>
+          <div class="grid-item"></div>
+          <div class="grid-item"></div>
+          <div class="grid-item"></div>
+          <div class="grid-item"></div>
+          <div class="grid-item"></div>
+          <div class="grid-item"></div>
           
     </div>
 </div>
@@ -110,4 +150,72 @@
     
   </body>
   <script src="sketch.js"></script>
+   <script>
+  function name() {
+  var x = document.getElementById("nameTab");
+  var a = document.getElementById("workTab");
+  var b = document.getElementById("resumeTab");
+  var c = document.getElementById("aboutTab");
+
+  if (x.style.display === "none") {
+    x.style.display = "none";
+    a.style.display = "none";
+    b.style.display = "none";
+    c.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function abtme() {
+  var x = document.getElementById("nameTab");
+  var a = document.getElementById("workTab");
+  var b = document.getElementById("resumeTab");
+  var c = document.getElementById("aboutTab");
+
+  if (c.style.display === "none") {
+    c.style.display = "block";
+    x.style.display = "none";
+    b.style.display = "none";
+    a.style.display = "none";
+  } else {
+    c.style.display = "none";
+  }
+}
+
+function work() {
+  var x = document.getElementById("nameTab");
+  var a = document.getElementById("workTab");
+  var b = document.getElementById("resumeTab");
+  var c = document.getElementById("aboutTab");
+
+  if (a.style.display === "none") {
+    a.style.display = "block";
+    x.style.display = "none";
+    b.style.display = "none";
+    c.style.display = "none";
+  } else {
+    a.style.display = "none";
+  }
+}
+
+function resume() {
+  var x = document.getElementById("nameTab");
+  var a = document.getElementById("workTab");
+  var b = document.getElementById("resumeTab");
+  var c = document.getElementById("aboutTab");
+
+  if (b.style.display === "none") {
+    b.style.display = "block";
+    x.style.display = "none";
+    a.style.display = "none";
+    c.style.display = "none";
+  } else {
+    b.style.display = "none";
+  }
+}
+  </script>
+  
+  
+  
 </html>

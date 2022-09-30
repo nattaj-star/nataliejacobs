@@ -14,3 +14,9 @@ canvas {
   z-index: -1 !!important;
   pointer-events: none;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 3px;
+  }
