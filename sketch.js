@@ -1,11 +1,12 @@
 var c1, c2, c3;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  canvas = createCanvas(windowWidth, windowHeight);
   c1 = color(242, 150, 51);
   c2 = color(237, 82, 31);
-  
+  canvas.position(0,0);
   setGradient(c1, c2);
+  canvas.style('z-index','-1')
 }
 
 function draw() {
