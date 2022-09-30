@@ -1,9 +1,11 @@
 
 
 #nav{
-  width:30%;
-  height: 70%;
-  border: blue solid 2px;
+ position: absolute;
+    top: 10%;
+    left: 10%;
+    background-color: rgb(58, 81, 232);
+    box-shadow: 0px 0px 35px 35px rgb(58, 81, 232);
    
   
 }
@@ -15,8 +17,57 @@ canvas {
   pointer-events: none;
 }
 
+#allinfo{
+   
+    
+    
+}
+
+
+
+#nameTab, #aboutTab, #workTab, #resumeTab{
+    display: none;
+   
+}
+
+#nameContent, #aboutContent, #workContent, #resumeContent{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 30%;
+    height: 50%;
+    background-color: rgb(58, 81, 232);
+    box-shadow: 0px 0px 35px 35px rgb(58, 81, 232);
+   overflow: scroll;
+}
+
+#resumeContent{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    width: 50%;
+    height: 60%;
+    background-color: rgb(58, 81, 232);
+    box-shadow: 0px 0px 35px 35px rgb(58, 81, 232);
+    overflow: scroll;
+    
+}
+
+#aboutContent{
+    font-family: 'Amarante', cursive;
+}
+
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 3px;
+  }
+
+  .grid-item {
+    border: 1px solid rgb(177, 73, 168);
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Amarante', cursive;
   }
