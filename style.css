@@ -4,8 +4,8 @@
  position: absolute;
     top: 10%;
     left: 10%;
-    background-color: rgb(245, 104, 22);
-    box-shadow: 0px 0px 35px 35px rgb(245, 104, 22);
+    background-color: rgb(207, 78, 27);
+    box-shadow: 0px 0px 35px 35px rgb(207, 78, 27);
    
   
 }
@@ -36,8 +36,8 @@ canvas {
     left: 50%;
     width: 40%;
     height: 70%;
-    background-color: rgb(245, 104, 22);
-    box-shadow: 0px 0px 35px 35px rgb(207, 31, 19);
+    background-color: rgb(207, 78, 27);
+    box-shadow: 0px 0px 35px 35px rgb(207, 78, 27);
    overflow: scroll;
 }
 
@@ -48,7 +48,7 @@ canvas {
     width: 50%;
     height: 60%;
     background-color: rgb(58, 81, 232);
-    box-shadow: 0px 0px 35px 35px rgb(5);
+    box-shadow: 0px 0px 35px 35px rgb(58, 81, 232);
     overflow: scroll;
     
 }
