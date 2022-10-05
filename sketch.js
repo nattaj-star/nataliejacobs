@@ -5,7 +5,7 @@ function setup() {
   c1 = color(242, 150, 51);
   c2 = color(237, 82, 31);
   canvas.position(0,0);
-  setGradient(c1, c2);
+  
   canvas.style('z-index','-1')
 }
 
