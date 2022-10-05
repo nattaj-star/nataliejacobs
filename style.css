@@ -48,7 +48,7 @@ canvas {
     width: 50%;
     height: 60%;
     background-color: rgb(58, 81, 232);
-    box-shadow: 0px 0px 35px 35px rgb(58, 81, 232);
+    box-shadow: 0px 0px 35px 35px rgb(5);
     overflow: scroll;
     
 }
