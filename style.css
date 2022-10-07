@@ -20,19 +20,14 @@ canvas {
 .self{
   display:inline-block;
   vertical-align:top;
-  width: 30%;
+  width: 50%;
   height: 100%;
   object-fit: cover;
 }
 
-#self{
-  display:inline-block;
-  vertical-align:top;
-}
 
-#words{
-  display:inline-block;
-}
+
+
 
 
 .paint {
