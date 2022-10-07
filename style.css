@@ -7,6 +7,7 @@
  padding: 3%;
  background-color: white;
  font-family: 'Cormorant Garamond', serif;
+ box-shadow: 0px 0px 35px 35px rgb(244, 169, 153);
  font-size: 100%;
 }
 
@@ -92,10 +93,14 @@ canvas {
     width: 50%;
     height: 70%;
     padding: 3%;
+    background-color: rgba(255,255,255, .8);
     box-shadow: 0px 0px 35px 35px rgb(244, 169, 153);
     overflow: scroll;
 }
 
+#workContent,#nameContent{
+ 
+}
 
 
 #aboutContent{
