@@ -2,14 +2,12 @@
 
 #nav{
  position: absolute;
-    top: 10%;
-    left: 5%;
-    padding: 3%;
-    background-color: transparent;
-    box-shadow: 0px 0px 35px 35px rgb(10, 54, 157);
-   font-family: 'Cormorant Garamond', serif;
-   font-weight: bold;
-  
+ top: 10%;
+ left: 5%;
+ padding: 3%;
+ background-color: transparent;
+ font-family: 'Cormorant Garamond', serif;
+ font-size: 150%;
 }
 
 canvas {
@@ -17,21 +15,6 @@ canvas {
   position: fixed;
   z-index: -1 !!important;
   pointer-events: none;
-}
-
-#allinfo{
-   
-    
-    
-}
-
-
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
 }
 
 
