@@ -46,7 +46,7 @@
        
        
      <div>
-    <p class="nav">♖♕♤NATALIE JACOBS♤♕♖</p>
+    <p class="nav">♖♤NATALIE JACOBS♤♖</p>
     </div>
     
     <p>((((Lives and works in Brooklyn, NY))))</p>
@@ -84,6 +84,7 @@
     <div id="aboutContent">
 
         <div class="container">
+           <div onclick="home()" class="home"><p class="home">♠ Return Home ♠</p></div>
 
 <div id="self"><img class="self" src="https://cdn.glitch.global/6d1c4a4a-688d-40d1-b9d2-95cd2223a252/nat.jpg?v=1665125651449"></div>
   
@@ -93,11 +94,11 @@
 <p>My work as an artist is, in many ways, an exercise in documentation, inextricable from the infinite transformations humming together to create this moment – the precipice of environmental collapse, daily signs of world desolation, the volatile e-culture, and that central question that wonders through it all: Will there be a human future? </p>
 <p>I watch the timeless way my friends move through this existence. I illustrate their bravery, sensitivity, sensuality, uncertainty, and fear. Their connection, not only to our terrestrial context, but to history and the heavens. The dawn of time and the end of days have much in common; I see the precipice they both stand on, the ways they are one. My work swallows the clock. It speaks in the language of air-pockets, inventing worlds collaged with reality, history, myth, and the subconscious. Before the beginning, after the end. The first and last lights glow with the same deliverance. So, I look backwards, excavating history to find similarities, escape, and ancient truth. I’m an observer. I’m an unreliable documentarian, augmenting narratives of my choosing. </p>
 <p>All of my work speaks to the only truths I know to be certain:</p>
-<p>We need community more than anything.</p> 
+<p>♞ We need community more than anything.</p> 
       
-      <p>We are home in nature.</p>
+      <p>♞ We are home in nature.</p>
       
-      <p>We create even as we collapse.</p>
+      <p>♞ We create even as we collapse.</p>
       </div>
       </div>
       
@@ -107,7 +108,7 @@
 
 <div id="workTab">
     <div id="workContent">
-    <div onclick="home()" class="home"><p class="returnhome">♖ The Left Hand of Darkness (Is Light) ♖</p></div>
+    <div onclick="home()" class="home"><p class="home">♠ Return Home ♠</p></div>
     <img class="paint" src="https://cdn.glitch.global/6d1c4a4a-688d-40d1-b9d2-95cd2223a252/The%20Left%20Hand%20of%20Darkness%20(Is%20Light).jpg?v=1665110558057">
     <p class="names">♖ The Left Hand of Darkness (Is Light) ♖</p>
     <p class="names">Acrylic on canvas, July 2022</p>
@@ -125,6 +126,7 @@
     
      <div id="nameTab">
       <div id="nameContent">
+         <div onclick="home()" class="home"><p class="home">♠ Return Home ♠</p></div>
     <img class="drawv" src="https://cdn.glitch.global/6d1c4a4a-688d-40d1-b9d2-95cd2223a252/The%20Mystery%20Before%20Us.jpg?v=1665110740785">
     <p class="names">♖ The Mystery Before Us ♖</p>
     <p class="names">Ink, graphite, and charcoal on paper, July 2022</p>
@@ -151,7 +153,7 @@
 
 <div id="resumeTab">
     <div id="resumeContent">
-      
+       <div onclick="home()" class="home"><p class="home">♠ Return Home ♠</p></div>
         <div class="grid-container">
             <div class="grid-item">EDUCATION</div>
           <div class="grid-item"></div>
@@ -226,7 +228,7 @@
 </div>
   
     
-    
+    </div>
     
      
     
@@ -243,6 +245,22 @@
 
   if (x.style.display === "none") {
     x.style.display = "block";
+    a.style.display = "none";
+    b.style.display = "none";
+    c.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+     
+function home() {
+  var x = document.getElementById("nameTab");
+  var a = document.getElementById("workTab");
+  var b = document.getElementById("resumeTab");
+  var c = document.getElementById("aboutTab");
+
+  if (x.style.display === "none") {
+    x.style.display = "none";
     a.style.display = "none";
     b.style.display = "none";
     c.style.display = "none";

@@ -10,6 +10,11 @@
  font-size: 100%;
 }
 
+.home{
+  color: red;
+  display: none;
+}
+
 canvas {
   display: block;
   position: fixed;
@@ -103,7 +108,13 @@ canvas {
    font-weight: bold;
   }
 
-@media only screen and (max-device-width: 5000px) {
+@media only screen and (max-device-width: 1000px) {
+  
+  .home{
+  color: red;
+  display: block;
+  text-align: center;
+}
   
 #nameContent, #aboutContent, #workContent, #resumeContent{
     font-family: 'Cormorant Garamond', serif;
