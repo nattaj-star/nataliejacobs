@@ -10,6 +10,16 @@
  font-size: 100%;
 }
 
+.nav{
+  transition: 0.3s;
+}
+
+.nav:hover{
+  color: rgb(72, 32, 110);
+  text-decoration: underline;
+  text-decoration-color: rgb(64, 14, 66);
+}
+
 .home{
   color: red;
   display: none;
@@ -109,6 +119,16 @@ canvas {
   }
 
 @media only screen and (max-device-width: 1000px) {
+  
+  #nav{
+ position: absolute;
+ top: 5%;
+ left: 5%;
+ padding: 3%;
+ background-color: transparent;
+ font-family: 'Cormorant Garamond', serif;
+ font-size: 100%;
+}
   
   .home{
   color: red;
