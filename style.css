@@ -17,7 +17,24 @@ canvas {
   pointer-events: none;
 }
 
-.
+.self{
+  display:inline-block;
+  vertical-align:top;
+  width: 30%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#self{
+  display:inline-block;
+  vertical-align:top;
+}
+
+#words{
+  display:inline-block;
+}
+
+
 .paint {
   width: 100%;
   height: 100%;
