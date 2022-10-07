@@ -24,9 +24,24 @@ canvas {
     
 }
 
-#img1 {
-  width: 200px;
-  height: 300px;
+.paint {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.drawh {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.drawv {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 100%;
   object-fit: cover;
 }
 
