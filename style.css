@@ -7,7 +7,8 @@
     padding: 3%;
     background-color: transparent;
     box-shadow: 0px 0px 35px 35px rgb(10, 54, 157);
-   
+   font-family: 'Cormorant Garamond', serif;
+   font-weight: bold;
   
 }
 
@@ -62,6 +63,8 @@ canvas {
 }
 
 #nameContent, #aboutContent, #workContent, #resumeContent{
+    font-family: 'Cormorant Garamond', serif;
+     font-weight: bold;
     position: absolute;
     top: 10%;
     left: 32%;
@@ -86,7 +89,8 @@ canvas {
 }
 
 #aboutContent{
-    font-family: 'Amarante', cursive;
+    font-family: 'Cormorant Garamond', serif;
+   font-weight: bold;
 }
 
 
@@ -100,5 +104,6 @@ canvas {
     padding: 5px;
     font-size: 15px;
     text-align: center;
-    font-family: 'Amarante', cursive;
+    font-family: 'Cormorant Garamond', serif;
+   font-weight: bold;
   }
