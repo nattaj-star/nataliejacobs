@@ -25,7 +25,9 @@ canvas {
   object-fit: cover;
 }
 
-
+.names{
+  text-align: center;
+}
 
 
 
@@ -71,7 +73,7 @@ canvas {
      font-weight: bold;
     position: absolute;
     top: 10%;
-    left: 32%;
+    left: 30%;
     width: 60%;
     height: 70%;
     padding: 3%;

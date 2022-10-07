@@ -10,7 +10,7 @@ function setup() {
 }
 
 function draw() {
-  stroke(86, 74, 199,60);
+  stroke(mouseX/5, 20, 250,100);
   ellipse(mouseX, mouseY, 30, 30);
   
 }
