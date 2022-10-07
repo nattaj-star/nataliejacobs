@@ -137,7 +137,13 @@ canvas {
  padding: 3%;
  background-color: transparent;
  font-family: 'Amarante', cursive;
+ font-style: bold;
  font-size: 100%;
+}
+  
+  canvas {
+  display: none;
+  
 }
   
   .home{
