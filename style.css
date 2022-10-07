@@ -6,8 +6,7 @@
  left: 5%;
  padding: 3%;
  background-color: white;
- font-family: 'Cormorant Garamond', serif;
- box-shadow: 0px 0px 35px 35px rgb(244, 169, 153);
+ font-family: 'Amarante', cursive;
  font-size: 100%;
 }
 
@@ -129,7 +128,7 @@ canvas {
 
 
 
-@media only screen and (max-device-width: 1000px) {
+@media only screen and (max-device-width: 600px) {
   
   #nav{
  position: absolute;
@@ -137,7 +136,7 @@ canvas {
  left: 5%;
  padding: 3%;
  background-color: transparent;
- font-family: 'Cormorant Garamond', serif;
+ font-family: 'Amarante', cursive;
  font-size: 100%;
 }
   
@@ -156,7 +155,7 @@ canvas {
     width: 80%;
     height: 80%;
     padding: 3%;
-    background-color: rgb(244, 169, 153);
+    background-color: rgb(255, 255, 255);
     box-shadow: 0px 0px 35px 35px rgb(244, 169, 153);
     overflow: scroll;
 }
