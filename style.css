@@ -4,8 +4,9 @@
  position: absolute;
     top: 10%;
     left: 10%;
-    background-color: rgb(207, 78, 27);
-    box-shadow: 0px 0px 35px 35px rgb(207, 78, 27);
+    padding: 3%;
+    background-color: rgb(247, 246, 245);
+    box-shadow: 0px 0px 35px 35px rgb(10, 54, 157);
    
   
 }
@@ -36,9 +37,10 @@ canvas {
     left: 50%;
     width: 40%;
     height: 70%;
-    background-color: rgb(207, 78, 27);
-    box-shadow: 0px 0px 35px 35px rgb(207, 78, 27);
-   overflow: scroll;
+    padding: 3%;
+    background-color: rgb(247, 246, 245);
+    box-shadow: 0px 0px 35px 35px rgb(10, 54, 157);
+    overflow: scroll;
 }
 
 #resumeContent{
