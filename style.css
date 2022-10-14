@@ -84,7 +84,7 @@ canvas {
 }
 
 #nameContent, #aboutContent, #workContent, #resumeContent{
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Open Sans', sans-serif;
      font-weight: bold;
     position: absolute;
     top: 10%;
@@ -128,7 +128,7 @@ canvas {
 
 
 
-@media only screen and (max-device-width: 5000px) {
+@media only screen and (max-device-width: 500px) {
   
   #nav{
  position: absolute;
@@ -162,7 +162,7 @@ canvas {
     height: 80%;
     padding: 3%;
     background-color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 0px 0px rgb(244, 169, 153);
+    box-shadow: 0px 0px 10px 10px rgb(244, 169, 153);
     overflow: scroll;
 }
   
