@@ -10,6 +10,10 @@
  font-size: 100%;
 }
 
+.font{
+   font-family: 'Amarante', cursive !!important;
+}
+
 .nav{
   transition: 0.3s;
 }
@@ -85,7 +89,7 @@ canvas {
 
 #nameContent, #aboutContent, #workContent, #resumeContent{
     font-family: 'Open Sans', sans-serif;
-     font-weight: bold;
+    font-weight: bold;
     position: absolute;
     top: 10%;
     left: 35%;
@@ -103,7 +107,7 @@ canvas {
 
 
 #aboutContent{
-    font-family: 'Cormorant Garamond', serif;
+   font-family: 'Cormorant Garamond', serif;
    font-weight: bold;
 }
 
@@ -118,7 +122,7 @@ canvas {
     padding: 5px;
     font-size: 15px;
     text-align: center;
-    font-family: 'Cormorant Garamond', serif;
+  
    font-weight: bold;
   }
 
@@ -153,7 +157,7 @@ canvas {
 }
   
 #nameContent, #aboutContent, #workContent, #resumeContent{
-    font-family: 'Cormorant Garamond', serif;
+  
     font-weight: bold;
     position: absolute;
     top: 8%;
