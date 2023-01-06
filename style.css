@@ -91,7 +91,6 @@ canvas {
 }
 
 #nameContent, #aboutContent, #workContent, #resumeContent{
-    
     font-weight: bold;
     position: absolute;
     top: 2%;
