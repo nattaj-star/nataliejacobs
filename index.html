@@ -98,6 +98,7 @@
       </div>
     </div>
 
+  
    
 
   <div id="workTab">
@@ -245,6 +246,7 @@
        <img class="drawh" src="https://cdn.glitch.global/6d1c4a4a-688d-40d1-b9d2-95cd2223a252/IMG_6978.jpg?v=1682695591978">
           <p class="names">♖ Cloth Mother ♖</p>
           <p class="names">Oil Painting on Wood, March 2021</p>
+         <br><br><br>
     </div>
   </div>
     
@@ -379,7 +381,7 @@
       }
   }
   
-   function worke() {
+   function home() {
     var x = document.getElementById("nameTab");
     var a = document.getElementById("workTab");
     var b = document.getElementById("resumeTab");
@@ -387,6 +389,24 @@
     var d = document.getElementById("workeTab");
 
       if (x.style.display === "none") {
+        x.style.display = "none";
+        a.style.display = "none";
+        b.style.display = "none";
+        c.style.display = "none";
+        d.style.display = "none";
+      } else {
+        x.style.display = "none";
+      }
+  }
+  
+   function worke() {
+    var x = document.getElementById("nameTab");
+    var a = document.getElementById("workTab");
+    var b = document.getElementById("resumeTab");
+    var c = document.getElementById("aboutTab");
+    var d = document.getElementById("workeTab");
+
+      if (d.style.display === "none") {
         d.style.display = "block";
         x.style.display = "none";
         a.style.display = "none";

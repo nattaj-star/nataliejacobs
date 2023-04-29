@@ -29,7 +29,7 @@
 
 .home{
   color: red;
-  display: block;
+  display: none;
 }
 
 canvas {
@@ -154,7 +154,7 @@ canvas {
   text-align: center;
 }
   
- #workContent, #resumeContent, #workeContent{
+ #workContent, #nameContent, #workeContent{
   
     font-weight: bold;
     position: absolute;
@@ -168,7 +168,7 @@ canvas {
     overflow: scroll;
 }
   
-  #nameContent, #aboutContent{
+  #resumeContent, #aboutContent{
    font-weight: bold;
     position: absolute;
     top: 8%;
