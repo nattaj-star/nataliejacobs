@@ -85,12 +85,12 @@ canvas {
 }
 
 
-#nameTab, #aboutTab, #workTab, #resumeTab{
+#nameTab, #aboutTab, #workTab, #resumeTab, #work3Tab{
     display: none;
    
 }
 
-#nameContent, #aboutContent, #workContent, #resumeContent{
+#nameContent, #aboutContent, #workContent, #resumeContent, #work3Tab{
     font-weight: bold;
     position: absolute;
     top: 2%;
@@ -154,7 +154,7 @@ canvas {
   text-align: center;
 }
   
- #workContent, #resumeContent{
+ #workContent, #resumeContent, #work3Content{
   
     font-weight: bold;
     position: absolute;
