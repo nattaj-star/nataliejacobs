@@ -29,7 +29,7 @@
 
 .home{
   color: red;
-  display: none;
+  display: block;
 }
 
 canvas {
