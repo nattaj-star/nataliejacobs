@@ -104,10 +104,7 @@ canvas {
 
 
 
-#aboutContent{
-  
-   font-weight: bold;
-}
+#aboutContent
 
 
 .grid-container {
@@ -120,7 +117,7 @@ canvas {
     padding: 5px;
     font-size: 15px;
     text-align: center;
-    font-weight: bold;
+    
   }
 
 
@@ -169,7 +166,7 @@ canvas {
 }
   
   #resumeContent, #aboutContent{
-   font-weight: bold;
+   
     position: absolute;
     top: 8%;
     left: 6%;
