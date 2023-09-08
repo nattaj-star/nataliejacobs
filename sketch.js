@@ -9,11 +9,6 @@ function setup() {
   canvas.style('z-index','-1')
 }
 
-function draw() {
-  stroke(10, 0, mouseX/5,100);
-  ellipse(mouseX, mouseY, 30, 30);
-  
-}
 
 
 
