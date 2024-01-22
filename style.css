@@ -9,7 +9,7 @@
  
  font-size: 100%;
    background-color: rgba(255,255,255, .8);
-    box-shadow: 0px 0px 35px 35px rgb(244, 169, 153); 
+    box-shadow: 0px 0px 35px 35px rgb(20, 20, 20); 
 }
 
 #font{
@@ -98,7 +98,7 @@ canvas {
     width: 60%;
     height: 80%;
     padding: 3%;
-    background-color: rgba(255,255,255, .8);
+    background-color: rgba(255,255,255);
     overflow: scroll;
 }
 
@@ -137,7 +137,7 @@ canvas {
  
  font-style: bold;
  font-size: 100%;
- box-shadow: 0px 0px 0px 0px rgb(244, 169, 153); 
+ box-shadow: 0px 0px 0px 0px rgb(235, 233, 232); 
 }
   
   canvas {
