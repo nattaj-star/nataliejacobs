@@ -1,4 +1,5 @@
 let currentTab = null;
+
 const tabMap = {
     info: 'info.html',
     cv: 'cv.html',
@@ -9,21 +10,21 @@ const tabMap = {
 };
 
 function showTab(tabId) {
-    // show the tabContent
+    // show tabContent
     document.getElementById("tabContent").style.display = "block";
+
     if (currentTab === tabId) {
-        document.getElementById('tabContentInner').innerHTML = '';
+        document.getElementById('tabContent').innerHTML = '';
         currentTab = null;
     } else {
         fetch('src/tabs/' + tabMap[tabId])
             .then(res => res.text())
             .then(html => {
-                document.getElementById('tabContentInner').innerHTML = html;
+                document.getElementById('tabContent').innerHTML = html;
                 currentTab = tabId;
             });
     }
 }
-
 
 function home() {
     // hide tab content

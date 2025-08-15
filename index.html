@@ -25,48 +25,41 @@
 </head>
 
 <body>
-  <div id="nav">
+  <div id="nav-menu">
     <div>
       <p id="font">Natalie Jacobs ✧</p>
     </div>
+    <div class="nav-menu-inner">
+      <div class="nav-item" onclick="showTab('info')">
+        <span><u>info</u></span>
+      </div>
+      <div class="nav-item" onclick="showTab('cv')">
+        <span><u>cv</u></span>
+      </div>
 
-    <div onclick="showTab('info')" id="info">
-      <p class="nav" id="info"><u>info</u></p>
-    </div>
+      <div class="nav-item" onclick="showTab('painting')">
+        <span>✧ <u>painting</u></span>
+      </div>
+      <div class="nav-item" onclick="showTab('drawing')">
+        <span id="drawing">✧ <u>drawing</u></span>
+      </div>
+      <div class="nav-item" onclick="showTab('print')">
+        <span>✧ <u>print</u></span>
+      </div>
+      <div class="nav-item" onclick="showTab('projects')">
+        <span>✧ <u>projects</u></span>
+      </div>
 
-    <div onclick="showTab('cv')" id="cv">
-      <p class="nav" id="cv"><u>cv</u></p>
-    </div>
-
-    <p class="font"></p>
-
-    <div onclick="showTab('painting')" id="painting">
-      <p class="nav">✧ <u>painting</u></p>
-    </div>
-
-    <div onclick="showTab('drawing')" id="drawing">
-      <p class="nav" id="drawing">✧ <u>drawing</u></p>
-    </div>
-
-    <div onclick="showTab('print')" id="worke">
-      <p class="nav" id="worke">✧ <u>print</u></p>
-    </div>
-
-    <p class="font">CONTACT</p>
-    <a href="mailto:natalie2jacobs2@gmail.com">natalie2jacobs2@gmail.com</a>
-    <br />
-    <br />
-    <a href="http://www.instagram.com/nattty.lite/">nattty.lite</a>
+      <div class="nav-section-header">
+        <b>CONTACT</b>
+      </div>
+      <a href=" mailto:natalie2jacobs2@gmail.com">natalie2jacobs2@gmail.com</a>
+      <a href="http://www.instagram.com/nattty.lite/">nattty.lite</a>
+    </div class="nav-menu-inner">
   </div>
 
   <div id="tabContent">
-    <div id="tabContentInner">
-    </div>
   </div>
-
 </body>
-
-
-
 
 </html>
