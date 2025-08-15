@@ -4,15 +4,10 @@ function setup() {
   canvas = createCanvas(windowWidth, windowHeight);
   c1 = color(242, 150, 51);
   c2 = color(237, 82, 31);
-  canvas.position(0,0);
-  
-  canvas.style('z-index','-1')
+  canvas.position(0, 0);
+
+  canvas.style('z-index', '-1')
 }
-
-
-
-
-
 
 function setGradient(c1, c2) {
   // noprotect
