@@ -6,7 +6,7 @@ const tabMap = {
     painting: 'painting.html',
     drawing: 'drawing.html',
     print: 'print.html',
-    //projectsTab: 'projects.html'
+    projects: 'projects.html'
 };
 
 function showTab(tabId) {

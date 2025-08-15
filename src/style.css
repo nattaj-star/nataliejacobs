@@ -100,7 +100,8 @@ canvas {
 #cvContent,
 #paintingContent,
 #drawingContent,
-#printContent {
+#printContent,
+#projectsContent {
   position: absolute;
   top: 2%;
   left: 35%;
@@ -164,7 +165,8 @@ canvas {
 
   #paintingContent,
   #drawingContent,
-  #printContent {
+  #printContent,
+  #projectsContent {
     position: absolute;
     top: 8%;
     left: 6%;
