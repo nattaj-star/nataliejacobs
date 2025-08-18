@@ -127,24 +127,6 @@ canvas {
     box-shadow: 0px 0px 0px 0px rgb(235, 233, 232);
   }
 
-  .nav-item {
-    transition: none;
-    /* disables all transitions */
-  }
-
-  .nav-item:hover {
-    transform: none;
-    /* remove scale */
-    text-shadow: none;
-    /* remove hover text shadow */
-    color: inherit;
-    /* optional: keep original color */
-    font-weight: normal;
-    /* optional: reset weight */
-    text-decoration-color: transparent;
-    /* optional: keep underline hidden */
-  }
-
   canvas {
     display: none;
 
