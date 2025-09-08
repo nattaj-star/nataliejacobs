@@ -9,12 +9,12 @@ export interface NavMenuProps {
 export function NavMenu({ setTab }: NavMenuProps) {
 
     const navItems = [
-        { key: "info", label: <u>info</u> },
-        { key: "cv", label: <u>cv</u> },
         { key: "painting", label: <>✧ <u>painting</u></> },
         { key: "drawing", label: <>✧ <u>drawing</u></> },
         { key: "print", label: <>✧ <u>print</u></> },
         // todo add projects
+        { key: "info", label: <u>info</u> },
+        { key: "cv", label: <u>cv</u> },
     ];
 
     const emailLink = <a href="mailto:natalie2jacobs2@gmail.com" className="nav-item">
