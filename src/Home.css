@@ -1,0 +1,12 @@
+.home {
+    color: red;
+    display: none;
+}
+
+@media only screen and (max-device-width: 500px) {
+    .home {
+        color: red;
+        display: block;
+        text-align: center;
+    }
+}

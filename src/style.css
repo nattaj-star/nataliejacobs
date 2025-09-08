@@ -1,219 +1,91 @@
-#font {
+.font200 {
   font-size: 200%;
+  width: 100%;
+  text-align: left;
 }
 
-#nav-menu {
-  position: absolute;
-  top: 8%;
-  left: 5%;
-  padding: 3%;
-  background-color: white;
-  font-size: 100%;
-  background-color: rgba(255, 255, 255, .8);
-  box-shadow: 0px 0px 35px 35px rgb(219, 200, 175);
+.font160 {
+  font-size: 160%;
 }
 
-.nav-menu-inner {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 16px;
+.font120 {
+  font-size: 120%;
 }
 
-.nav-item {
-  display: inline-block;
-  position: relative;
-  transition: color 0.3s cubic-bezier(.4, 0, .2, 1), transform 0.3s cubic-bezier(.4, 0, .2, 1);
-  cursor: pointer;
-  padding: 2px 8px;
-  font-weight: 500;
-  letter-spacing: 0.05em;
-}
-
-.nav-item::before {
-  content: "";
-  position: absolute;
-  left: 50%;
-  bottom: -6px;
-  width: 0;
-  height: 4px;
-  background: linear-gradient(90deg, #48206e 0%, #e0b87f 100%);
-  border-radius: 2px;
-  opacity: 0.7;
-  transform: translateX(-50%);
-  transition: width 0.4s cubic-bezier(.4, 0, .2, 1), opacity 0.4s cubic-bezier(.4, 0, .2, 1);
-}
-
-.nav-item:hover {
-  color: #e0b87f;
-  transform: translateY(-2px) scale(1.05);
-  text-shadow: 0 2px 8px rgba(72, 32, 110, 0.15);
-}
-
-.nav-item:hover::before {
-  width: 90%;
-  opacity: 1;
-}
-
-.home {
-  color: red;
-  display: none;
-}
-
-canvas {
-  display: block;
-  position: fixed;
-  z-index: -1 !important;
-  pointer-events: none;
-}
-
-.self {
-  display: inline-block;
-  vertical-align: top;
-  width: 50%;
-  height: 100%;
-  object-fit: cover;
+.nav-divider {
+  width: 100%;
+  border: none;
+  border-top: 2px solid black;
 }
 
 .names {
   text-align: center;
 }
 
-.paint {
+/* Base horizontal (full width/height, preserve aspect) */
+.content-wide {
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: contain;
+  /* Optional: max size = screen size */
+  max-width: 100vw;
+  max-height: 100vh;
 }
 
-.paintv {
+/* Base vertical (half width, centered, preserve aspect) */
+.content-tall {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  height: 100%;
-  object-fit: contain;
-}
-
-.drawh {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
-.drawv {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  height: 100%;
-  object-fit: contain;
-}
-
-#infoContent,
-#cvContent,
-#paintingContent,
-#drawingContent,
-#printContent,
-#projectsContent {
-  position: absolute;
-  top: 2%;
-  left: 35%;
   width: 60%;
-  height: 80%;
-  padding: 3%;
-  background-color: rgba(255, 255, 255);
-  overflow: scroll;
+  height: auto;
+  object-fit: contain;
+  /* Optional: max size = screen size */
+  max-width: 100vw;
+  max-height: 100vh;
 }
 
-#infoContent .grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 1px;
+.tabContent {
+  position: absolute;
+  padding-top: max(8vh, 32px);
+  top: 0;
+  right: 0;
+  width: 100vw;
+  max-width: 60vw;
+  height: 88vh;
+  padding-bottom: 3vh;
+  padding-left: 40%;
+  padding-right: max(8vw, 32px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.grid-item {
-  padding: 5px;
-  font-size: 15px;
-  text-align: center;
+.tabContentInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  /* adds spacing between items */
 }
+
 
 @media only screen and (max-device-width: 500px) {
-
-  #nav-menu {
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    padding: 3%;
-    background-color: transparent;
-    font-style: bold;
-    font-size: 100%;
-    box-shadow: 0px 0px 0px 0px rgb(235, 233, 232);
-  }
-
-  canvas {
-    display: none;
-  }
-
-  .home {
-    color: red;
-    display: block;
-    text-align: center;
-  }
-
-  #infoContent,
-  #cvContent {
+  .tabContent {
     position: absolute;
     top: 8%;
     left: 6%;
     width: 82%;
+    max-width: 82%;
     height: 80%;
     padding: 3%;
     background-color: rgb(255, 255, 255);
     overflow: scroll;
+  }
+
+  .mobileBoxShadow {
     box-shadow: 0px 0px 35px 35px rgb(244, 169, 153);
-  }
-
-  #paintingContent,
-  #drawingContent,
-  #printContent,
-  #projectsContent {
-    position: absolute;
-    top: 8%;
-    left: 6%;
-    width: 82%;
-    height: 80%;
-    padding: 3%;
-    background-color: rgb(255, 255, 255);
-    overflow: scroll;
-  }
-
-  .paint {
-    width: 100%;
-    height: 50%;
-    object-fit: contain;
-  }
-
-  .paintv {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
-
-  .drawh {
-    width: 100%;
-    height: 50%;
-    object-fit: contain;
-  }
-
-  .drawv {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
   }
 }
