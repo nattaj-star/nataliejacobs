@@ -1,10 +1,12 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/addons/p5.sound.min.js"></script>
+  <script src="src/main.js"></script>
   <link rel="stylesheet" type="text/css" href="src/style.css" />
+  <link rel="icon" type="image/jpeg" href="assets/favicon/star-6-16.jpg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
@@ -14,15 +16,43 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>NJ</title>
-  <link rel="icon" href="assets/star-6-16.png" type="image/png" />
   <meta name="description" content="Natalie Jacobs Artist Website"
-    author="Natalie Jacobs, Emma Taylor Paydos, and Andy Chang" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    author="Emma Taylor Paydos, Natalie Jacobs, Andy Chang" />
+
 </head>
 
 <body>
-  <div id="root"></div>
-  <script type="module" src="/src/main.tsx"></script>
+  <div class="nav-menu">
+    <div class="nav-title">Natalie Jacobs ✧</div>
+    <hr class="nav-divider" />
+    <div class="nav-section">
+      <div class="nav-menu-inner">
+        <div class="nav-item" onclick="showTab('painting')">✧ <u>painting</u></div>
+        <div class="nav-item" onclick="showTab('drawing')">✧ <u>drawing</u></div>
+        <div class="nav-item" onclick="showTab('print')">✧ <u>print</u></div>
+        <!-- TODO nattaj-star uncomment this
+      <div class="nav-item" onclick="showTab('projects')">✧ <u>projects</u></div>
+      -->
+        <div class="nav-item" onclick="showTab('info')"><u>info</u></div>
+        <div class="nav-item" onclick="showTab('cv')"><u>cv</u></div>
+      </div>
+    </div>
+    <div class="nav-section">
+      <div class="nav-section-header">CONTACT</div>
+      <hr class="nav-divider" />
+      <div class="nav-menu-inner">
+        <a href="mailto:natalie2jacobs2@gmail.com" class="nav-item">
+          natalie2jacobs2@gmail.com
+        </a>
+        <a href="http://www.instagram.com/nattty.lite/" target="_blank" rel="noopener noreferrer" class="nav-item">
+          nattty.lite
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div id="tabContentId" class="tabContent">
+  </div>
 </body>
 
 </html>

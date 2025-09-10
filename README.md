@@ -1,18 +1,4 @@
-# Live at:
-
-https://nataliejacobs.online/
-
-# Running locally
-
-`npm install`
-
-`npm run dev`
-
-`npm run build`
-
-`npm run preview`
-
-# etc
-<img width="2021" height="1422" alt="image" src="https://github.com/user-attachments/assets/aa0af547-edf3-4980-98ea-e9ec112b53c6" />
-
-Built in vite + react to de-duplicate code
+# Running locally:
+1. Install vscode live server extension
+    https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
+2. Right click index.html and open with live server
