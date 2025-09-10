@@ -1,5 +1,4 @@
 # Live at:
-https://nattaj-star.github.io/nataliejacobs
 
 https://nataliejacobs.online/
 

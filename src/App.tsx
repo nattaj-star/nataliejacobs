@@ -7,6 +7,7 @@ import { Painting } from './tabs/painting.tsx';
 import { Drawing } from './tabs/drawing.tsx';
 import { Print } from './tabs/print.tsx';
 import type { Tab } from './types.ts';
+import { Projects } from './tabs/projects.tsx';
 
 export function App() {
     const [tab, setTab] = useState<Tab | null>(null)
@@ -33,7 +34,7 @@ export function App() {
                 {tab == "painting" && <Painting />}
                 {tab == "drawing" && <Drawing />}
                 {tab == "print" && <Print />}
-                {/* {tab == "projects" && <Projects />} */}
+                {tab == "projects" && <Projects />}
             </div>}
         </div>
     )

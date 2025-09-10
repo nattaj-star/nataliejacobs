@@ -12,7 +12,8 @@ export function NavMenu({ setTab }: NavMenuProps) {
         { key: "painting", label: <>✧ <u>painting</u></> },
         { key: "drawing", label: <>✧ <u>drawing</u></> },
         { key: "print", label: <>✧ <u>print</u></> },
-        // todo add projects
+        // TODO nattaj-star uncomment this
+        { key: "projects", label: <>✧ <u>projects</u></> },
         { key: "info", label: <u>info</u> },
         { key: "cv", label: <u>cv</u> },
     ];
