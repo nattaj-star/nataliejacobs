@@ -1,5 +1,5 @@
 # Live at:
-https://nataliejacobs.online/
+https://nattaj-star.github.io/nataliejacobs/
 
 # Running locally
 
