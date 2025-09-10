@@ -13,7 +13,7 @@ export function NavMenu({ setTab }: NavMenuProps) {
         { key: "drawing", label: <>✧ <u>drawing</u></> },
         { key: "print", label: <>✧ <u>print</u></> },
         // TODO nattaj-star uncomment this
-        { key: "projects", label: <>✧ <u>projects</u></> },
+        // { key: "projects", label: <>✧ <u>projects</u></> },
         { key: "info", label: <u>info</u> },
         { key: "cv", label: <u>cv</u> },
     ];
