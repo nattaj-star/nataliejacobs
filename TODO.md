@@ -3,3 +3,5 @@ We apply different styling per tab, and the home button needs to be inside of th
 
 
 # nattaj-star to fill out projects content and uncomment tab trigger
+
+# nattaj-star to get a better favicon
