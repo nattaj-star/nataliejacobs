@@ -173,6 +173,7 @@
   }
 
   .tabContent {
+    display: none;
     position: absolute;
     top: 8%;
     left: 6%;
