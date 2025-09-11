@@ -3,7 +3,6 @@
     top: max(8vh, 32px);
     left: max(8vw, 32px);
     z-index: 999;
-    min-width: 260px;
 }
 
 .nav-title {
