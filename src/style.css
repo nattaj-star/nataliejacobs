@@ -76,6 +76,10 @@
   text-align: center;
 }
 
+.content-container {
+  margin-bottom: 60px;
+}
+
 /* Base horizontal (full width/height, preserve aspect) */
 .content-wide {
   width: 100%;
