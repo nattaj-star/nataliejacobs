@@ -5,11 +5,10 @@
 
 /* Base horizontal (full width/height, preserve aspect) */
 .content-wide {
-  width: 80%;
+  width: 95%;
   height: auto;
   object-fit: contain;
-   text-align: center;
-  display: block;
+   
 }
 
 /* Base vertical (half width, centered, preserve aspect) */
@@ -17,10 +16,10 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 55%;
   height: auto;
   object-fit: contain;
-   text-align: center;
+
 }
 
 .names {
