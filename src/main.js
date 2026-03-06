@@ -4,7 +4,7 @@ const tabMap = {
     info: 'info.html',
     cv: 'cv.html',
     painting: 'painting.html',
-    drawing: 'drawing.html',
+    works on paper: 'works on paper.html',
     projects: 'projects.html'
 };
 
