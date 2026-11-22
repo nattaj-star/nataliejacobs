@@ -4,6 +4,11 @@
   text-align: left;
 }
 
+h2.font200 {
+  font-weight: normal;
+  margin: 0;
+}
+
 .font160 {
   font-size: 160%;
 }
@@ -15,6 +20,7 @@
 .home {
   color: red;
   display: none;
+  text-decoration: none;
 }
 
 .tab-content {
@@ -35,6 +41,11 @@
   align-items: center;
 }
 
+/* Each section fills the content column, whatever its text width */
+.tab-content > div {
+  width: 100%;
+}
+
 .tab-content-inner {
   display: flex;
   flex-direction: column;
@@ -43,23 +54,21 @@
   /* adds spacing between items */
 }
 
-@media only screen and (max-device-width: 500px) {
+/* Phones and small tablets: the section opens as a normal scrolling page */
+@media only screen and (max-width: 860px) {
   .home {
-    color: red;
     display: block;
     text-align: center;
+    margin: 0 0 24px;
   }
 
   .tab-content {
-    display: none;
-    position: absolute;
-    top: 8%;
-    left: 6%;
-    width: 82%;
-    max-width: 82%;
-    height: 80%;
-    padding: 3%;
-    background-color: rgb(255, 255, 255);
-    overflow: scroll;
+    position: static;
+    width: auto;
+    max-width: none;
+    height: auto;
+    padding: max(6vh, 24px) 6vw 8vh;
+    overflow: visible;
+    display: block;
   }
 }

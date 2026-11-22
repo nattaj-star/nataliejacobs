@@ -26,6 +26,25 @@
   text-align: center;
 }
 
+/* Clicking an artwork opens the full-size original */
+.artwork-link {
+  display: block;
+  cursor: zoom-in;
+}
+
+.full-size {
+  font-size: 0.8rem;
+  margin-top: -6px;
+}
+
+.full-size a {
+  color: #888;
+}
+
+.full-size a:hover {
+  color: rgb(72, 32, 110);
+}
+
 .cv-section {
   display: flex;
   flex-direction: column;
