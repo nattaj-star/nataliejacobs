@@ -1,10 +1,3 @@
-# nattaj-star to pick which email address to use
-The contact link shows natalie.jacobs@columbia.edu, but clicking it emails nj2576@columbia.edu (see `index.html`).
-Make the shown address and the `mailto:` link match.
-
-# nattaj-star to confirm "Hyperreal" vs "Hyperreality"
-The caption in `src/tabs/painting.html` says *Hyperreal*, but the image file is `Hyperreality.jpg`. Which is the title?
-
 # Fix duplicated home button on each tabContent
 We apply different styling per tab, and the home button needs to be inside of that, causing this needless duplication
 
