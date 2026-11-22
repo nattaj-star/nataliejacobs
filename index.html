@@ -2,42 +2,51 @@
 <html lang="en">
 
 <head>
-  <script src="src/main.js"></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Natalie Jacobs — Painter &amp; Printmaker</title>
+  <meta name="description"
+    content="Natalie Jacobs is a painter and printmaker and a current MFA student at Columbia University. Paintings, works on paper, info and CV." />
+  <meta name="author" content="Emma Taylor Paydos, Natalie Jacobs, Andy Chang" />
+  <link rel="canonical" href="https://nataliejacobs.online/" />
+
+  <!-- Link previews (Instagram, iMessage, Slack, etc.) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Natalie Jacobs" />
+  <meta property="og:title" content="Natalie Jacobs — Painter &amp; Printmaker" />
+  <meta property="og:description" content="Paintings, works on paper, info and CV." />
+  <meta property="og:url" content="https://nataliejacobs.online/" />
+  <meta property="og:image" content="https://nataliejacobs.online/assets/social-preview.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="favicon.ico" sizes="48x48" />
+  <link rel="icon" href="assets/favicon/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="assets/favicon/favicon-32.png" type="image/png" sizes="32x32" />
+  <link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png" />
 
   <link rel="stylesheet" type="text/css" href="src/style.css" />
   <link rel="stylesheet" type="text/css" href="src/style-nav.css" />
   <link rel="stylesheet" type="text/css" href="src/style-content.css" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Amarante&family=Cormorant+Garamond:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&family=Lato:ital,wght@1,100&family=Open+Sans:ital,wght@0,500;1,400&display=swap"
-    rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap" rel="stylesheet" />
-
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <link rel="icon" type="image/jpeg" href="assets/favicon/favicon.gif" />
-
-  <title>NJ</title>
-  <meta name="description" content="Natalie Jacobs Artist Website"
-    author="Emma Taylor Paydos, Natalie Jacobs, Andy Chang" />
+  <script src="src/main.js" defer></script>
 </head>
 
 <body>
-  <div class="nav-menu">
-    <div class="nav-title">Natalie Jacobs</div>
+  <nav class="nav-menu" aria-label="Main">
+    <h1 class="nav-title"><a href="#" class="title-link">Natalie Jacobs</a></h1>
     <hr class="nav-divider" />
     <div class="nav-section">
       <div class="nav-menu-inner">
-        <div class="nav-item" onclick="showTab('painting')">✧ <u>painting</u></div>
-        <div class="nav-item" onclick="showTab('works on paper')">✧ <u>works on paper</u></div>
+        <a class="nav-item nav-link" href="#painting">✧ <u>painting</u></a>
+        <a class="nav-item nav-link" href="#works-on-paper">✧ <u>works on paper</u></a>
         <!-- TODO nattaj-star uncomment this
-      <div class="nav-item" onclick="showTab('projects')">✧ <u>projects</u></div>
-      -->
-        <div class="nav-item" onclick="showTab('info')"><u>info</u></div>
-        <div class="nav-item" onclick="showTab('cv')"><u>cv</u></div>
+        <a class="nav-item nav-link" href="#projects">✧ <u>projects</u></a>
+        -->
+        <a class="nav-item nav-link" href="#info"><u>info</u></a>
+        <a class="nav-item nav-link" href="#cv"><u>cv</u></a>
       </div>
     </div>
     <div class="nav-section">
@@ -47,14 +56,14 @@
         <a href="mailto:nj2576@columbia.edu" class="nav-item">
           natalie.jacobs@columbia.edu
         </a>
-        <a href="http://www.instagram.com/nattty.lite/" target="_blank" rel="noopener noreferrer" class="nav-item">
+        <a href="https://www.instagram.com/nattty.lite/" target="_blank" rel="noopener noreferrer" class="nav-item">
           nattty.lite
         </a>
       </div>
     </div>
-  </div>
-  <div id="tabContentId" class="tab-content">
-  </div>
+  </nav>
+  <main id="tabContentId" class="tab-content">
+  </main>
 </body>
 
 </html>
